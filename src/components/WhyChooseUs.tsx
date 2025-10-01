@@ -1,28 +1,4 @@
-// import React from "react";
 
-// const points = [
-//   { icon: "✅", text: "Proven track record with measurable results." },
-//   { icon: "🎯", text: "Customized solutions tailored to your business needs." },
-//   { icon: "🤝", text: "Dedicated support and transparent communication." },
-// ];
-
-// const WhyChooseUs: React.FC = () => {
-//   return (
-//     <section className="py-20 text-center px-4">
-//       <h2 className="text-3xl font-heading font-bold mb-12">Why Partner with Us?</h2>
-//       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-//         {points.map((point, index) => (
-//           <div key={index} className="p-6 bg-lightgray rounded-lg shadow hover:scale-105 transform transition">
-//             <div className="text-5xl mb-4">{point.icon}</div>
-//             <p className="font-sans text-lg">{point.text}</p>
-//           </div>
-//         ))}
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default WhyChooseUs;
 
 
 import React from "react";

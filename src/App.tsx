@@ -70,17 +70,17 @@ import WhyChooseUs from "./components/WhyChooseUs";
 import Testimonials from "./components/Testimonials";
 import CTASection from "./components/CTASection";
 import Footer from "./components/Footer";
-import { Helmet, HelmetProvider } from "react-helmet-async";
+// import { Helmet, HelmetProvider } from "react-helmet-async";
 
 const App: React.FC = () => {
   return (
     <div className="App w-full">
-      <HelmetProvider>
-        <Helmet>
+      {/* <HelmetProvider> */}
+        {/* <Helmet> */}
           <title>Your Company | Digital Solutions</title>
           <meta name="description" content="Empowering businesses with seamless digital solutions, workflow automation, and growth strategies." />
           <meta name="keywords" content="Digital Solutions, Business Growth, Workflow Automation, Marketing, Analytics" />
-        </Helmet>
+        {/* </Helmet> */}
         {/* <div className="min-h-screen max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-12"> */}
 
         <Navbar />
@@ -91,7 +91,7 @@ const App: React.FC = () => {
         <CTASection />
         <Footer />
         {/* </div> */}
-      </HelmetProvider>
+      {/* </HelmetProvider> */}
     </div>
   );
 };
